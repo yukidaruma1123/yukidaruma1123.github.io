@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>My Portfolio</title>
+    <meta name="description" content="ポートフォリオサイト">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/normalize.css@8.0.1/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <header id="header">
+        <h1><a href="index.html" class="top-title">yuki takayama</a></h1>
+        <nav class="navbar">
+            <div class="navbar-container">
+                <input type="checkbox" name="" id="">
+                <div class="hamburger-lines">
+                    <span class="line line1"></span>
+                    <span class="line line2"></span>
+                    <span class="line line3"></span>
+                </div>
+                <ul class="menu-items">
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#works">Works</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <div id="mainvisual">
+            <img src="img/main_image.png" alt="main_image">
+        </div>
+
+        <section id="about" class="wrapper">
+            <h2 class="section-title">About</h2>
+            <div class="content">
+                <img class="icon" src="img/aboutimg.png" alt="">
+                <div class="a-text">
+                    <h3 class="content-title">yuki takayama</h3>
+                    <p>
+                    私が初めてパソコンに触れたのは、Windows 95が発売された頃でした。<br>
+                    当時はプログラミングには特に興味を持たず、ただコンピュータに親しんでいただけでした。
+                    </p>
+                    <p>
+                    大人になってから、ふとしたきっかけでHTMLとCSSの学習を始め、<br>
+                    ウェブ制作の世界に魅力を感じるようになりました。
+                    </p>
+                    <p>
+                    さらに興味は広がり、他のプログラミング言語にもチャレンジ。<br>
+                    一通り触れた後、Pythonを使ってシンプルなツールの開発に取り組むようになりました。
+                    </p>
+                    <p>
+                    これまでの経験を活かし、<br>
+                    「わかりやすく」「親しみやすい」デザインやツール作りを心がけています。
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <section id="works" class="wrapper">
+            <h2 class="section-title">Works</h2>
+            <div class="carousel">
+                <div class="carousel-item item1">
+                    <img class="w-img" src="img/sample1.png" alt="">
+                    <p>aaaaaaaaaaaaaaaaaa</p>
+                </div>
+                <div class="carousel-item item2">
+                    <img class="w-img" src="img/sample2.png" alt="">
+                </div>
+                <div class="carousel-item item1">
+                    <img class="w-img" src="img/sample1.png" alt="">
+                </div>
+                <div class="carousel-item item2">
+                    <img class="w-img" src="img/sample2.png" alt="">
+                </div>
+                <div class="carousel-item item1">
+                    <img class="w-img" src="img/sample1.png" alt="">
+                </div>
+                <div class="carousel-item item2">
+                    <img class="w-img" src="img/sample2.png" alt="">
+                </div>
+            </div>
+
+            <p class="text text-link"><a href="works.html">and more...</a></p>
+        </section>
+
+        <section id="contact" class="wrapper">
+            <h2 class="section-title">Contact</h2>
+            <div class="content">
+                <form action="#" method="post" id="contact_form">
+                    <div class="name">
+                        <label for="name"></label>
+                        <input type="text" placeholder="name" name="name" id="name_input" required>
+                    </div>
+                    <div class="email">
+                        <label for="email"></label>
+                        <input type="email" placeholder="e-mail" name="email" id="email_input" required>
+                    </div>
+                    <div class="message">
+                        <label for="message"></label>
+                        <textarea name="message" placeholder="message" id="message_input" cols="30" rows="5" required></textarea>
+                    </div>
+                    <div class="submit">
+                        <input type="submit" value="Send" id="form_button" />
+                    </div>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer id="footer">
+        <p>&copy; 2025 yuki takayama</p>
+    </footer>
+</body>
