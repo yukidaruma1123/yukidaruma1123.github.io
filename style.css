@@ -346,7 +346,7 @@ textarea {
         height: 32px;
         width: 30px;
         top: 20px;
-        left: 100px;
+        left: 800px;
         z-index: 5;
         opacity: 0;
     }
@@ -357,7 +357,7 @@ textarea {
         width: 35px;
         position: absolute;
         top: 17px;
-        left: 100px;
+        left: 80px;
         z-index: 2;
         display: flex;
         flex-direction: column;
@@ -428,7 +428,7 @@ textarea {
 
     h1 {
         font-size: 25px;
-        margin-left: 10px;
+        margin-left: 0;
     }
 
     #header li{
@@ -459,7 +459,6 @@ textarea {
         word-break: break-word;
         overflow-wrap: break-word;
     }
-
 
     .email {
         float: none;
@@ -574,7 +573,7 @@ textarea {
 
     h1 {
         font-size: 25px;
-        margin-left: 10px;
+        margin-left: 0;
     }
 
     #header li{
