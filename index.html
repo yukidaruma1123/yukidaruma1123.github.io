@@ -95,18 +95,18 @@
         <section id="contact" class="wrapper">
             <h2 class="section-title">Contact</h2>
             <div class="content">
-                <form action="#" method="post" id="contact_form">
+                <form action="https://formspree.io/f/mblozlag" method="POST" id="contact_form">
                     <div class="name">
                         <label for="name"></label>
-                        <input type="text" placeholder="name" name="name" id="name_input" required>
+                        <input type="text" placeholder="Name" name="name" id="name_input" required>
                     </div>
                     <div class="email">
                         <label for="email"></label>
-                        <input type="email" placeholder="e-mail" name="email" id="email_input" required>
+                        <input type="email" placeholder="E-mail" name="email" id="email_input" required>
                     </div>
                     <div class="message">
                         <label for="message"></label>
-                        <textarea name="message" placeholder="message" id="message_input" cols="30" rows="5" required></textarea>
+                        <textarea name="message" placeholder="Message" id="message_input" cols="30" rows="5" required></textarea>
                     </div>
                     <div class="submit">
                         <input type="submit" value="Send" id="form_button" />
@@ -114,11 +114,19 @@
                 </form>
             </div>
         </section>
+
+        <div id="modal" class="modal">
+            <div class="modal-content">
+                <span class="close-button">&times;</span>
+                <p>送信が完了しました。ありがとうございました。</p>
+            </div>
+        </div>
     </main>
 
     <footer id="footer">
         <p>&copy; 2025 yuki takayama</p>
     </footer>
 
+<script src="portfolio.js"></script>
 </body>
 </html>
