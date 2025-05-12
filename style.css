@@ -168,14 +168,15 @@ a:hover {
 
 .production {
     display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .production:nth-child(even) {
     flex-direction: row-reverse;
 }
 
 .w-img img{
-    border-radius: 2%;
-    width: 300px;
+    object-fit: cover;
 }
 
 .text-link {
