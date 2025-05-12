@@ -224,7 +224,7 @@ form {
     width: 45%;
 }
 
-input[type='text'], [type='email'], select, textarea {
+input[type='text'], [type='email'], textarea {
     background: none;
     border: none;
     border-bottom: solid 2px #474544;
@@ -234,7 +234,6 @@ input[type='text'], [type='email'], select, textarea {
     letter-spacing: 1px;
     margin: 0em 0 1.875em 0;
     padding: 0 0 0.875em 0;
-    text-transform: uppercase;
     width: 100%;
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
@@ -310,6 +309,38 @@ textarea {
     color: #F2F3EB;
 }
 
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 999;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.modal-content {
+    background-color: #fff;
+    margin: 15% auto;
+    padding: 30px 20px;
+    border-radius: 8px;
+    width: 80%;
+    max-width: 400px;
+    position: relative;
+    text-align: center;
+    font-size: 1em;
+}
+
+.close-button {
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #666;
+    cursor: pointer;
+}
 
 /*--------footer--------*/
 
